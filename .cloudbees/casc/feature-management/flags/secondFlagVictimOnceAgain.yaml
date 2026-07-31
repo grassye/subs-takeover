@@ -1,0 +1,25 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: secondFlagVictimOnceAgain
+flagType: boolean
+description: |-
+    This is the second flag ,
+
+    Hello and wassup guys and ladies from the victim side of the world.
+
+    I hope you guys and ladies are doing well and okay on your side of the world.
+
+    May god bless you guys and ladies with lots of love,luck, and good physical and mental health
+labels:
+  - newlBAELviks
+  - brandNewLabelViks
+  - woowh
+  - helloLabelViks
+
+availableValues:
+  - "true"
+  - "false"
+
+isPermanent: true

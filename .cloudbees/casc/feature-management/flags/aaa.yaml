@@ -1,0 +1,16 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: aaa
+flagType: boolean
+description: aaaedz
+labels:
+  - aa
+  - newlBAELviks
+
+availableValues:
+  - "true"
+  - "false"
+
+isPermanent: true

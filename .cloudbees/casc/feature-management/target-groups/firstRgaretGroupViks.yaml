@@ -1,0 +1,13 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: firstRgaretGroupViks
+
+description: aaa 
+
+conditions:
+  allOf:
+    - property:
+        name: firstCustomViksProertyinFeatureMgmt
+        operator: is-true
